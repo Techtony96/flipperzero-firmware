@@ -35,19 +35,19 @@ const FuriHalRegion furi_hal_region_us_ca_au = {
     .bands_count = 3,
     .bands = {
         {
-            .start = 304100000,
-            .end = 321950000,
+            .start = 300000000,
+            .end = 348000000,
             .power_limit = 12,
             .duty_cycle = 50,
         },
         {
-            .start = 433050000,
-            .end = 434790000,
+            .start = 387000000,
+            .end = 464000000,
             .power_limit = 12,
             .duty_cycle = 50,
         },
         {
-            .start = 915000000,
+            .start = 779000000,
             .end = 928000000,
             .power_limit = 12,
             .duty_cycle = 50,
